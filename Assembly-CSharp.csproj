@@ -45,12 +45,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\ballSpawner.cs" />
- <Reference Include="UnityEngine.UI">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\scripts\CameraRotator.cs" />
+     <Compile Include="Assets\scripts\GameOverScore.cs" />
+     <Compile Include="Assets\scripts\LevelManager.cs" />
+     <Compile Include="Assets\scripts\ScoreAbsorber.cs" />
+     <Compile Include="Assets\scripts\ScoreDetection.cs" />
+     <Compile Include="Assets\scripts\ScoreDisplay.cs" />
+     <Compile Include="Assets\scripts\ScoreKeeper.cs" />
+     <Compile Include="Assets\scripts\TimeDisplay.cs" />
+     <Compile Include="Assets\scripts\ballLauncher.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
