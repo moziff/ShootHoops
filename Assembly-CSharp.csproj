@@ -48,10 +48,13 @@
      <Compile Include="Assets\scripts\CameraRotator.cs" />
      <Compile Include="Assets\scripts\GameOverScore.cs" />
      <Compile Include="Assets\scripts\LevelManager.cs" />
+     <Compile Include="Assets\scripts\PrimaryTrigger.cs" />
      <Compile Include="Assets\scripts\ScoreAbsorber.cs" />
      <Compile Include="Assets\scripts\ScoreDetection.cs" />
      <Compile Include="Assets\scripts\ScoreDisplay.cs" />
      <Compile Include="Assets\scripts\ScoreKeeper.cs" />
+     <Compile Include="Assets\scripts\SecondaryTrigger.cs" />
+     <Compile Include="Assets\scripts\ThudSound.cs" />
      <Compile Include="Assets\scripts\TimeDisplay.cs" />
      <Compile Include="Assets\scripts\ballLauncher.cs" />
  <Reference Include="UnityEngine.Networking">
